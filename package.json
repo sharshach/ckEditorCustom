@@ -46,6 +46,6 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "start": "npx http-server -o ./Sample -s -c-1"
+    "start": "npx http-server"
   }
 }

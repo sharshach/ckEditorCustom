@@ -101,5 +101,19 @@ Editor.builtinPlugins = [
 	TextTransformation,
 	Underline
 ];
+Editor.defaultConfig = {
+    toolbar: [ 
+		'heading', '|',
+		'bold', 'italic','underline', 'strikethrough', 'subscript', 'superscript', 'link', '|',
+		'bulletedList', 'numberedList','|',
+		'fontfamily', 'fontsize', 'fontColor', 'fontBackgroundColor', '|',
+		'code', 'codeBlock', '|',
+		'mediaEmbed','mediaEmbedToolbar','table','tableToolbar','|',
+		'outdent', 'indent', '|',
+		'imageUpload', 'blockQuote', '|',
+		'undo', 'redo' 
+	],
+    language: 'en'
+};
 
 export default Editor;
