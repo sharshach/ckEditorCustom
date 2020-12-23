@@ -108,11 +108,14 @@ Editor.defaultConfig = {
 		'bulletedList', 'numberedList','|',
 		'fontfamily', 'fontsize', 'fontColor', 'fontBackgroundColor', '|',
 		'code', 'codeBlock', '|',
-		'mediaEmbed','mediaEmbedToolbar','table','tableToolbar','|',
+		'imageInsert','htmlEmbed','mediaEmbed','insertTable','|',
 		'outdent', 'indent', '|',
 		'imageUpload', 'blockQuote', '|',
 		'undo', 'redo' 
 	],
+	table: {
+		contentToolbar: [ 'tableColumn', 'tableRow', 'mergeTableCells' ]
+	},
     language: 'en'
 };
 
