@@ -106,11 +106,12 @@ Editor.defaultConfig = {
 		'heading', '|',
 		'bold', 'italic','underline', 'strikethrough', 'subscript', 'superscript', 'link', '|',
 		'bulletedList', 'numberedList','|',
-		'fontfamily', 'fontsize', 'fontColor', 'fontBackgroundColor', '|',
 		'code', 'codeBlock', '|',
-		'imageInsert','htmlEmbed','mediaEmbed','insertTable','|',
 		'outdent', 'indent', '|',
+		'-',
+		'imageInsert','htmlEmbed','mediaEmbed','insertTable','|',
 		'imageUpload', 'blockQuote', '|',
+		'fontfamily', 'fontsize', 'fontColor', 'fontBackgroundColor', '|',
 		'undo', 'redo' 
 	],
 	table: {
